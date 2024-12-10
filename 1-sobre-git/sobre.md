@@ -1,0 +1,18 @@
+# O que é Git?
+- Versionamento de código e projeto.
+- Git foi desenvolvido por Linus Torvalds.
+	- Desenvolvido para resolver problemas no versionamento do kernel linux.
+- Objetivos:
+	- Salvar as diversas alterações que ocorrem em um projeto de *software*.
+	- Possibilidade de *roll-back*.
+	- Várias pessoas poderem colaborar em um projeto.
+- Acessível por GUI e principalmente pelo terminal.
+- Cada nó é um *checkpoint* do arquivo.
+- Cada commit tem um hash único de identificação.
+- Etapas do *pipeline:*
+	- **Stage (Pré Commit): Avisa o git que aquele arquivo deve ser acompanhado.**
+	- **Commit: Realiza as mudanças salvas na etapa de stage.**
+- **Ramificações (Branches):**
+	- Ramificação do projeto.
+	- Maneira de trabalhar em novas funcionalidades do projeto sem prejudicar o funcionamento esperado que já se tem na main.
+	- Forma de várias pessoas colaborarem no projeto de forma segura.
